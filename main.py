@@ -8,7 +8,7 @@ from file_synchronizer import FileSynchronizer
 def validate_args(args):
     """
     Function's purpose is to validate whether according to system rules, paths provided as command
-    line arguments ar valid, ie. if it is possible to create such paths in the system (because of
+    line arguments ar valid, i.e. if it is possible to create such paths in the system (because of
     system restrictions)
     :param args: argparse.Namespace containing all command line arguments program was called with:
     :return: None
@@ -29,7 +29,7 @@ def validate_args(args):
 
 def parse_args():
     """
-    Function's purpose is to parse command line arguments ans store them in an appropriate object
+    Function's purpose is to parse command line arguments and store them in an appropriate object
     :return:
     """
     parser = ArgumentParser(
